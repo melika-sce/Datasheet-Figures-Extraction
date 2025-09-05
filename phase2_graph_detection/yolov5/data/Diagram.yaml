@@ -1,0 +1,7 @@
+
+train: /content/drive/MyDrive/Freelance/Data/train 
+val: /content/drive/MyDrive/Freelance/Data/validation 
+test: /content/drive/MyDrive/Freelance/Data/validation 
+# Classes
+names:
+  0: 1
