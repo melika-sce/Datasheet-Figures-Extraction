@@ -1,0 +1,380 @@
+{
+    "class": 1,
+    "bbox": [
+        1674.8092041015625,
+        2267.6474609375,
+        2134.49365234375,
+        3109.226806640625
+    ],
+    "bbox_normalized": [
+        0.6753262919764365,
+        0.646606062428714,
+        0.8606829243321572,
+        0.8865773614601155
+    ],
+    "conf": 0.6830406785011292,
+    "center": [
+        1904.6514282226562,
+        2688.4371337890625
+    ],
+    "center_normalized": [
+        0.7680046081542968,
+        0.7665917119444148
+    ],
+    "legend_boxes": [],
+    "labels": [],
+    "ocr_results": [
+        {
+            "text": "REFERENCE",
+            "bbox": [
+                138,
+                32,
+                316,
+                52
+            ],
+            "conf": 0.0,
+            "words": [
+                {
+                    "text": "REFERENCE",
+                    "bbox": [
+                        138,
+                        32,
+                        316,
+                        52
+                    ],
+                    "confidence": 0.0
+                }
+            ],
+            "associated_element": "none"
+        },
+        {
+            "text": "JEDEC TO263",
+            "bbox": [
+                129,
+                68,
+                324,
+                88
+            ],
+            "conf": 0.0,
+            "words": [
+                {
+                    "text": "JEDEC",
+                    "bbox": [
+                        129,
+                        68,
+                        226,
+                        88
+                    ],
+                    "confidence": 0.0
+                },
+                {
+                    "text": "TO263",
+                    "bbox": [
+                        235,
+                        68,
+                        324,
+                        88
+                    ],
+                    "confidence": 0.0
+                }
+            ],
+            "associated_element": "none"
+        },
+        {
+            "text": "SCALE",
+            "bbox": [
+                84,
+                141,
+                178,
+                161
+            ],
+            "conf": 0.0,
+            "words": [
+                {
+                    "text": "SCALE",
+                    "bbox": [
+                        84,
+                        141,
+                        178,
+                        161
+                    ],
+                    "confidence": 0.0
+                }
+            ],
+            "associated_element": "none"
+        },
+        {
+            "text": "0",
+            "bbox": [
+                278,
+                132,
+                293,
+                149
+            ],
+            "conf": 0.0,
+            "words": [
+                {
+                    "text": "0",
+                    "bbox": [
+                        278,
+                        132,
+                        293,
+                        149
+                    ],
+                    "confidence": 0.0
+                }
+            ],
+            "associated_element": "none"
+        },
+        {
+            "text": "0",
+            "bbox": [
+                77,
+                283,
+                93,
+                301
+            ],
+            "conf": 0.0,
+            "words": [
+                {
+                    "text": "0",
+                    "bbox": [
+                        77,
+                        283,
+                        93,
+                        301
+                    ],
+                    "confidence": 0.0
+                }
+            ],
+            "associated_element": "none"
+        },
+        {
+            "text": "5",
+            "bbox": [
+                232,
+                288,
+                249,
+                307
+            ],
+            "conf": 0.0,
+            "words": [
+                {
+                    "text": "5",
+                    "bbox": [
+                        232,
+                        288,
+                        249,
+                        307
+                    ],
+                    "confidence": 0.0
+                }
+            ],
+            "associated_element": "none"
+        },
+        {
+            "text": "\u0441\u043b",
+            "bbox": [
+                274,
+                276,
+                288,
+                296
+            ],
+            "conf": 0.0,
+            "words": [
+                {
+                    "text": "\u0441\u043b",
+                    "bbox": [
+                        274,
+                        276,
+                        288,
+                        296
+                    ],
+                    "confidence": 0.0
+                }
+            ],
+            "associated_element": "none"
+        },
+        {
+            "text": "5",
+            "bbox": [
+                273,
+                277,
+                290,
+                296
+            ],
+            "conf": 0.0,
+            "words": [
+                {
+                    "text": "5",
+                    "bbox": [
+                        273,
+                        277,
+                        290,
+                        296
+                    ],
+                    "confidence": 0.0
+                }
+            ],
+            "associated_element": "none"
+        },
+        {
+            "text": "7.5mm",
+            "bbox": [
+                319,
+                360,
+                405,
+                380
+            ],
+            "conf": 0.0,
+            "words": [
+                {
+                    "text": "7.5mm",
+                    "bbox": [
+                        319,
+                        360,
+                        405,
+                        380
+                    ],
+                    "confidence": 0.0
+                }
+            ],
+            "associated_element": "none"
+        },
+        {
+            "text": "EUROPEAN PROJECTION",
+            "bbox": [
+                51,
+                431,
+                413,
+                451
+            ],
+            "conf": 0.0,
+            "words": [
+                {
+                    "text": "EUROPEAN",
+                    "bbox": [
+                        51,
+                        431,
+                        216,
+                        451
+                    ],
+                    "confidence": 0.0
+                },
+                {
+                    "text": "PROJECTION",
+                    "bbox": [
+                        226,
+                        431,
+                        413,
+                        451
+                    ],
+                    "confidence": 0.0
+                }
+            ],
+            "associated_element": "none"
+        },
+        {
+            "text": "ISSUE DATE",
+            "bbox": [
+                137,
+                659,
+                312,
+                678
+            ],
+            "conf": 0.0,
+            "words": [
+                {
+                    "text": "ISSUE",
+                    "bbox": [
+                        137,
+                        659,
+                        225,
+                        678
+                    ],
+                    "confidence": 0.0
+                },
+                {
+                    "text": "DATE",
+                    "bbox": [
+                        236,
+                        659,
+                        312,
+                        678
+                    ],
+                    "confidence": 0.0
+                }
+            ],
+            "associated_element": "none"
+        },
+        {
+            "text": "12-02-2006",
+            "bbox": [
+                154,
+                693,
+                299,
+                713
+            ],
+            "conf": 0.0,
+            "words": [
+                {
+                    "text": "12-02-2006",
+                    "bbox": [
+                        154,
+                        693,
+                        299,
+                        713
+                    ],
+                    "confidence": 0.0
+                }
+            ],
+            "associated_element": "none"
+        },
+        {
+            "text": "FILE",
+            "bbox": [
+                201,
+                754,
+                260,
+                774
+            ],
+            "conf": 0.0,
+            "words": [
+                {
+                    "text": "FILE",
+                    "bbox": [
+                        201,
+                        754,
+                        260,
+                        774
+                    ],
+                    "confidence": 0.0
+                }
+            ],
+            "associated_element": "none"
+        },
+        {
+            "text": "TO263_2",
+            "bbox": [
+                176,
+                790,
+                298,
+                813
+            ],
+            "conf": 0.0,
+            "words": [
+                {
+                    "text": "TO263_2",
+                    "bbox": [
+                        176,
+                        790,
+                        298,
+                        813
+                    ],
+                    "confidence": 0.0
+                }
+            ],
+            "associated_element": "none"
+        }
+    ]
+}

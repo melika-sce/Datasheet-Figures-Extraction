@@ -1,0 +1,2087 @@
+{
+    "class": 1,
+    "bbox": [
+        282.4148864746094,
+        1555.786865234375,
+        1201.90869140625,
+        2721.236328125
+    ],
+    "bbox_normalized": [
+        0.11075093587239583,
+        0.47145056522253787,
+        0.47133674172794116,
+        0.8246170691287878
+    ],
+    "conf": 0.6215282678604126,
+    "center": [
+        742.1617889404297,
+        2138.5115966796875
+    ],
+    "center_normalized": [
+        0.2910438388001685,
+        0.6480338171756629
+    ],
+    "legend_boxes": [],
+    "labels": [],
+    "ocr_results": [
+        {
+            "text": "SYMBOL",
+            "bbox": [
+                235,
+                84,
+                355,
+                103
+            ],
+            "conf": 0.0,
+            "words": [
+                {
+                    "text": "SYMBOL",
+                    "bbox": [
+                        235,
+                        84,
+                        355,
+                        103
+                    ],
+                    "confidence": 0.0
+                }
+            ],
+            "associated_element": "none"
+        },
+        {
+            "text": "MIN (mm)",
+            "bbox": [
+                469,
+                81,
+                601,
+                107
+            ],
+            "conf": 0.0,
+            "words": [
+                {
+                    "text": "MIN",
+                    "bbox": [
+                        469,
+                        81,
+                        525,
+                        106
+                    ],
+                    "confidence": 0.0
+                },
+                {
+                    "text": "(",
+                    "bbox": [
+                        533,
+                        84,
+                        544,
+                        106
+                    ],
+                    "confidence": 0.0
+                },
+                {
+                    "text": "mm",
+                    "bbox": [
+                        544,
+                        84,
+                        588,
+                        107
+                    ],
+                    "confidence": 0.0
+                },
+                {
+                    "text": ")",
+                    "bbox": [
+                        589,
+                        85,
+                        601,
+                        107
+                    ],
+                    "confidence": 0.0
+                }
+            ],
+            "associated_element": "none"
+        },
+        {
+            "text": "MAX (mm)",
+            "bbox": [
+                682,
+                81,
+                825,
+                105
+            ],
+            "conf": 0.0,
+            "words": [
+                {
+                    "text": "MAX",
+                    "bbox": [
+                        682,
+                        81,
+                        750,
+                        104
+                    ],
+                    "confidence": 0.0
+                },
+                {
+                    "text": "(",
+                    "bbox": [
+                        760,
+                        83,
+                        769,
+                        103
+                    ],
+                    "confidence": 0.0
+                },
+                {
+                    "text": "mm",
+                    "bbox": [
+                        768,
+                        83,
+                        812,
+                        105
+                    ],
+                    "confidence": 0.0
+                },
+                {
+                    "text": ")",
+                    "bbox": [
+                        813,
+                        85,
+                        825,
+                        105
+                    ],
+                    "confidence": 0.0
+                }
+            ],
+            "associated_element": "none"
+        },
+        {
+            "text": "A",
+            "bbox": [
+                284,
+                133,
+                306,
+                149
+            ],
+            "conf": 0.0,
+            "words": [
+                {
+                    "text": "A",
+                    "bbox": [
+                        284,
+                        133,
+                        306,
+                        149
+                    ],
+                    "confidence": 0.0
+                }
+            ],
+            "associated_element": "none"
+        },
+        {
+            "text": "4.83",
+            "bbox": [
+                508,
+                132,
+                559,
+                149
+            ],
+            "conf": 0.0,
+            "words": [
+                {
+                    "text": "4.83",
+                    "bbox": [
+                        508,
+                        132,
+                        559,
+                        149
+                    ],
+                    "confidence": 0.0
+                }
+            ],
+            "associated_element": "none"
+        },
+        {
+            "text": "5.21",
+            "bbox": [
+                729,
+                131,
+                777,
+                150
+            ],
+            "conf": 0.0,
+            "words": [
+                {
+                    "text": "5.21",
+                    "bbox": [
+                        729,
+                        131,
+                        777,
+                        150
+                    ],
+                    "confidence": 0.0
+                }
+            ],
+            "associated_element": "none"
+        },
+        {
+            "text": "A1",
+            "bbox": [
+                277,
+                167,
+                311,
+                184
+            ],
+            "conf": 0.0,
+            "words": [
+                {
+                    "text": "A1",
+                    "bbox": [
+                        277,
+                        167,
+                        311,
+                        184
+                    ],
+                    "confidence": 0.0
+                }
+            ],
+            "associated_element": "none"
+        },
+        {
+            "text": "2.23",
+            "bbox": [
+                508,
+                166,
+                560,
+                184
+            ],
+            "conf": 0.0,
+            "words": [
+                {
+                    "text": "2.23",
+                    "bbox": [
+                        508,
+                        166,
+                        560,
+                        184
+                    ],
+                    "confidence": 0.0
+                }
+            ],
+            "associated_element": "none"
+        },
+        {
+            "text": "2.54",
+            "bbox": [
+                727,
+                167,
+                780,
+                184
+            ],
+            "conf": 0.0,
+            "words": [
+                {
+                    "text": "2.54",
+                    "bbox": [
+                        727,
+                        167,
+                        780,
+                        184
+                    ],
+                    "confidence": 0.0
+                }
+            ],
+            "associated_element": "none"
+        },
+        {
+            "text": "A2",
+            "bbox": [
+                277,
+                201,
+                314,
+                218
+            ],
+            "conf": 0.0,
+            "words": [
+                {
+                    "text": "A2",
+                    "bbox": [
+                        277,
+                        201,
+                        314,
+                        218
+                    ],
+                    "confidence": 0.0
+                }
+            ],
+            "associated_element": "none"
+        },
+        {
+            "text": "1.91",
+            "bbox": [
+                511,
+                199,
+                557,
+                217
+            ],
+            "conf": 0.0,
+            "words": [
+                {
+                    "text": "1.91",
+                    "bbox": [
+                        511,
+                        199,
+                        557,
+                        217
+                    ],
+                    "confidence": 0.0
+                }
+            ],
+            "associated_element": "none"
+        },
+        {
+            "text": "2.16",
+            "bbox": [
+                727,
+                201,
+                778,
+                218
+            ],
+            "conf": 0.0,
+            "words": [
+                {
+                    "text": "2.16",
+                    "bbox": [
+                        727,
+                        201,
+                        778,
+                        218
+                    ],
+                    "confidence": 0.0
+                }
+            ],
+            "associated_element": "none"
+        },
+        {
+            "text": "b",
+            "bbox": [
+                288,
+                235,
+                304,
+                251
+            ],
+            "conf": 0.0,
+            "words": [
+                {
+                    "text": "b",
+                    "bbox": [
+                        288,
+                        235,
+                        304,
+                        251
+                    ],
+                    "confidence": 0.0
+                }
+            ],
+            "associated_element": "none"
+        },
+        {
+            "text": "1.07",
+            "bbox": [
+                512,
+                235,
+                559,
+                251
+            ],
+            "conf": 0.0,
+            "words": [
+                {
+                    "text": "1.07",
+                    "bbox": [
+                        512,
+                        235,
+                        559,
+                        251
+                    ],
+                    "confidence": 0.0
+                }
+            ],
+            "associated_element": "none"
+        },
+        {
+            "text": "1.33",
+            "bbox": [
+                731,
+                235,
+                778,
+                252
+            ],
+            "conf": 0.0,
+            "words": [
+                {
+                    "text": "1.33",
+                    "bbox": [
+                        731,
+                        235,
+                        778,
+                        252
+                    ],
+                    "confidence": 0.0
+                }
+            ],
+            "associated_element": "none"
+        },
+        {
+            "text": "bl",
+            "bbox": [
+                280,
+                270,
+                307,
+                287
+            ],
+            "conf": 0.0,
+            "words": [
+                {
+                    "text": "bl",
+                    "bbox": [
+                        280,
+                        270,
+                        307,
+                        287
+                    ],
+                    "confidence": 0.0
+                }
+            ],
+            "associated_element": "none"
+        },
+        {
+            "text": "2.39",
+            "bbox": [
+                508,
+                268,
+                558,
+                287
+            ],
+            "conf": 0.0,
+            "words": [
+                {
+                    "text": "2.39",
+                    "bbox": [
+                        508,
+                        268,
+                        558,
+                        287
+                    ],
+                    "confidence": 0.0
+                }
+            ],
+            "associated_element": "none"
+        },
+        {
+            "text": "2.94",
+            "bbox": [
+                728,
+                270,
+                777,
+                287
+            ],
+            "conf": 0.0,
+            "words": [
+                {
+                    "text": "2.94",
+                    "bbox": [
+                        728,
+                        270,
+                        777,
+                        287
+                    ],
+                    "confidence": 0.0
+                }
+            ],
+            "associated_element": "none"
+        },
+        {
+            "text": "b3",
+            "bbox": [
+                279,
+                304,
+                309,
+                321
+            ],
+            "conf": 0.0,
+            "words": [
+                {
+                    "text": "b3",
+                    "bbox": [
+                        279,
+                        304,
+                        309,
+                        321
+                    ],
+                    "confidence": 0.0
+                }
+            ],
+            "associated_element": "none"
+        },
+        {
+            "text": "1.07",
+            "bbox": [
+                512,
+                304,
+                559,
+                320
+            ],
+            "conf": 0.0,
+            "words": [
+                {
+                    "text": "1.07",
+                    "bbox": [
+                        512,
+                        304,
+                        559,
+                        320
+                    ],
+                    "confidence": 0.0
+                }
+            ],
+            "associated_element": "none"
+        },
+        {
+            "text": "1.60",
+            "bbox": [
+                731,
+                304,
+                778,
+                320
+            ],
+            "conf": 0.0,
+            "words": [
+                {
+                    "text": "1.60",
+                    "bbox": [
+                        731,
+                        304,
+                        778,
+                        320
+                    ],
+                    "confidence": 0.0
+                }
+            ],
+            "associated_element": "none"
+        },
+        {
+            "text": "b7",
+            "bbox": [
+                280,
+                338,
+                309,
+                354
+            ],
+            "conf": 0.0,
+            "words": [
+                {
+                    "text": "b7",
+                    "bbox": [
+                        280,
+                        338,
+                        309,
+                        354
+                    ],
+                    "confidence": 0.0
+                }
+            ],
+            "associated_element": "none"
+        },
+        {
+            "text": "1.30",
+            "bbox": [
+                511,
+                337,
+                558,
+                355
+            ],
+            "conf": 0.0,
+            "words": [
+                {
+                    "text": "1.30",
+                    "bbox": [
+                        511,
+                        337,
+                        558,
+                        355
+                    ],
+                    "confidence": 0.0
+                }
+            ],
+            "associated_element": "none"
+        },
+        {
+            "text": "1.70",
+            "bbox": [
+                731,
+                336,
+                779,
+                356
+            ],
+            "conf": 0.0,
+            "words": [
+                {
+                    "text": "1.70",
+                    "bbox": [
+                        731,
+                        336,
+                        779,
+                        356
+                    ],
+                    "confidence": 0.0
+                }
+            ],
+            "associated_element": "none"
+        },
+        {
+            "text": "b8",
+            "bbox": [
+                280,
+                372,
+                308,
+                387
+            ],
+            "conf": 0.0,
+            "words": [
+                {
+                    "text": "b8",
+                    "bbox": [
+                        280,
+                        372,
+                        308,
+                        387
+                    ],
+                    "confidence": 0.0
+                }
+            ],
+            "associated_element": "none"
+        },
+        {
+            "text": "1.80",
+            "bbox": [
+                512,
+                371,
+                559,
+                389
+            ],
+            "conf": 0.0,
+            "words": [
+                {
+                    "text": "1.80",
+                    "bbox": [
+                        512,
+                        371,
+                        559,
+                        389
+                    ],
+                    "confidence": 0.0
+                }
+            ],
+            "associated_element": "none"
+        },
+        {
+            "text": "2.20",
+            "bbox": [
+                728,
+                370,
+                777,
+                389
+            ],
+            "conf": 0.0,
+            "words": [
+                {
+                    "text": "2.20",
+                    "bbox": [
+                        728,
+                        370,
+                        777,
+                        389
+                    ],
+                    "confidence": 0.0
+                }
+            ],
+            "associated_element": "none"
+        },
+        {
+            "text": "\u0441",
+            "bbox": [
+                289,
+                411,
+                302,
+                423
+            ],
+            "conf": 0.0,
+            "words": [
+                {
+                    "text": "\u0441",
+                    "bbox": [
+                        289,
+                        411,
+                        302,
+                        423
+                    ],
+                    "confidence": 0.0
+                }
+            ],
+            "associated_element": "none"
+        },
+        {
+            "text": "0.55",
+            "bbox": [
+                509,
+                406,
+                560,
+                423
+            ],
+            "conf": 0.0,
+            "words": [
+                {
+                    "text": "0.55",
+                    "bbox": [
+                        509,
+                        406,
+                        560,
+                        423
+                    ],
+                    "confidence": 0.0
+                }
+            ],
+            "associated_element": "none"
+        },
+        {
+            "text": "0.68",
+            "bbox": [
+                728,
+                406,
+                778,
+                422
+            ],
+            "conf": 0.0,
+            "words": [
+                {
+                    "text": "0.68",
+                    "bbox": [
+                        728,
+                        406,
+                        778,
+                        422
+                    ],
+                    "confidence": 0.0
+                }
+            ],
+            "associated_element": "none"
+        },
+        {
+            "text": "D",
+            "bbox": [
+                284,
+                440,
+                307,
+                456
+            ],
+            "conf": 0.0,
+            "words": [
+                {
+                    "text": "D",
+                    "bbox": [
+                        284,
+                        440,
+                        307,
+                        456
+                    ],
+                    "confidence": 0.0
+                }
+            ],
+            "associated_element": "none"
+        },
+        {
+            "text": "23.30",
+            "bbox": [
+                501,
+                440,
+                568,
+                456
+            ],
+            "conf": 0.0,
+            "words": [
+                {
+                    "text": "23.30",
+                    "bbox": [
+                        501,
+                        440,
+                        568,
+                        456
+                    ],
+                    "confidence": 0.0
+                }
+            ],
+            "associated_element": "none"
+        },
+        {
+            "text": "23.63",
+            "bbox": [
+                721,
+                440,
+                785,
+                457
+            ],
+            "conf": 0.0,
+            "words": [
+                {
+                    "text": "23.63",
+                    "bbox": [
+                        721,
+                        440,
+                        785,
+                        457
+                    ],
+                    "confidence": 0.0
+                }
+            ],
+            "associated_element": "none"
+        },
+        {
+            "text": "D1",
+            "bbox": [
+                278,
+                475,
+                308,
+                492
+            ],
+            "conf": 0.0,
+            "words": [
+                {
+                    "text": "D1",
+                    "bbox": [
+                        278,
+                        475,
+                        308,
+                        492
+                    ],
+                    "confidence": 0.0
+                }
+            ],
+            "associated_element": "none"
+        },
+        {
+            "text": "16.25",
+            "bbox": [
+                504,
+                473,
+                565,
+                492
+            ],
+            "conf": 0.0,
+            "words": [
+                {
+                    "text": "16.25",
+                    "bbox": [
+                        504,
+                        473,
+                        565,
+                        492
+                    ],
+                    "confidence": 0.0
+                }
+            ],
+            "associated_element": "none"
+        },
+        {
+            "text": "17.65",
+            "bbox": [
+                723,
+                475,
+                785,
+                491
+            ],
+            "conf": 0.0,
+            "words": [
+                {
+                    "text": "17.65",
+                    "bbox": [
+                        723,
+                        475,
+                        785,
+                        491
+                    ],
+                    "confidence": 0.0
+                }
+            ],
+            "associated_element": "none"
+        },
+        {
+            "text": "D2",
+            "bbox": [
+                278,
+                510,
+                313,
+                526
+            ],
+            "conf": 0.0,
+            "words": [
+                {
+                    "text": "D2",
+                    "bbox": [
+                        278,
+                        510,
+                        313,
+                        526
+                    ],
+                    "confidence": 0.0
+                }
+            ],
+            "associated_element": "none"
+        },
+        {
+            "text": "5.55",
+            "bbox": [
+                509,
+                508,
+                561,
+                526
+            ],
+            "conf": 0.0,
+            "words": [
+                {
+                    "text": "5.55",
+                    "bbox": [
+                        509,
+                        508,
+                        561,
+                        526
+                    ],
+                    "confidence": 0.0
+                }
+            ],
+            "associated_element": "none"
+        },
+        {
+            "text": "5.95",
+            "bbox": [
+                727,
+                508,
+                778,
+                526
+            ],
+            "conf": 0.0,
+            "words": [
+                {
+                    "text": "5.95",
+                    "bbox": [
+                        727,
+                        508,
+                        778,
+                        526
+                    ],
+                    "confidence": 0.0
+                }
+            ],
+            "associated_element": "none"
+        },
+        {
+            "text": "E",
+            "bbox": [
+                287,
+                543,
+                305,
+                560
+            ],
+            "conf": 0.0,
+            "words": [
+                {
+                    "text": "E",
+                    "bbox": [
+                        287,
+                        543,
+                        305,
+                        560
+                    ],
+                    "confidence": 0.0
+                }
+            ],
+            "associated_element": "none"
+        },
+        {
+            "text": "15.75",
+            "bbox": [
+                504,
+                543,
+                567,
+                560
+            ],
+            "conf": 0.0,
+            "words": [
+                {
+                    "text": "15.75",
+                    "bbox": [
+                        504,
+                        543,
+                        567,
+                        560
+                    ],
+                    "confidence": 0.0
+                }
+            ],
+            "associated_element": "none"
+        },
+        {
+            "text": "16.13",
+            "bbox": [
+                724,
+                543,
+                785,
+                559
+            ],
+            "conf": 0.0,
+            "words": [
+                {
+                    "text": "16.13",
+                    "bbox": [
+                        724,
+                        543,
+                        785,
+                        559
+                    ],
+                    "confidence": 0.0
+                }
+            ],
+            "associated_element": "none"
+        },
+        {
+            "text": "E1",
+            "bbox": [
+                279,
+                577,
+                308,
+                594
+            ],
+            "conf": 0.0,
+            "words": [
+                {
+                    "text": "E1",
+                    "bbox": [
+                        279,
+                        577,
+                        308,
+                        594
+                    ],
+                    "confidence": 0.0
+                }
+            ],
+            "associated_element": "none"
+        },
+        {
+            "text": "13.1",
+            "bbox": [
+                512,
+                576,
+                556,
+                594
+            ],
+            "conf": 0.0,
+            "words": [
+                {
+                    "text": "13.1",
+                    "bbox": [
+                        512,
+                        576,
+                        556,
+                        594
+                    ],
+                    "confidence": 0.0
+                }
+            ],
+            "associated_element": "none"
+        },
+        {
+            "text": "14.15",
+            "bbox": [
+                723,
+                577,
+                784,
+                594
+            ],
+            "conf": 0.0,
+            "words": [
+                {
+                    "text": "14.15",
+                    "bbox": [
+                        723,
+                        577,
+                        784,
+                        594
+                    ],
+                    "confidence": 0.0
+                }
+            ],
+            "associated_element": "none"
+        },
+        {
+            "text": "E2",
+            "bbox": [
+                279,
+                611,
+                309,
+                628
+            ],
+            "conf": 0.0,
+            "words": [
+                {
+                    "text": "E2",
+                    "bbox": [
+                        279,
+                        611,
+                        309,
+                        628
+                    ],
+                    "confidence": 0.0
+                }
+            ],
+            "associated_element": "none"
+        },
+        {
+            "text": "3.68",
+            "bbox": [
+                509,
+                609,
+                559,
+                628
+            ],
+            "conf": 0.0,
+            "words": [
+                {
+                    "text": "3.68",
+                    "bbox": [
+                        509,
+                        609,
+                        559,
+                        628
+                    ],
+                    "confidence": 0.0
+                }
+            ],
+            "associated_element": "none"
+        },
+        {
+            "text": "5.10",
+            "bbox": [
+                729,
+                609,
+                777,
+                628
+            ],
+            "conf": 0.0,
+            "words": [
+                {
+                    "text": "5.10",
+                    "bbox": [
+                        729,
+                        609,
+                        777,
+                        628
+                    ],
+                    "confidence": 0.0
+                }
+            ],
+            "associated_element": "none"
+        },
+        {
+            "text": "E3",
+            "bbox": [
+                279,
+                646,
+                309,
+                662
+            ],
+            "conf": 0.0,
+            "words": [
+                {
+                    "text": "E3",
+                    "bbox": [
+                        279,
+                        646,
+                        309,
+                        662
+                    ],
+                    "confidence": 0.0
+                }
+            ],
+            "associated_element": "none"
+        },
+        {
+            "text": "1.00",
+            "bbox": [
+                512,
+                646,
+                560,
+                663
+            ],
+            "conf": 0.0,
+            "words": [
+                {
+                    "text": "1.00",
+                    "bbox": [
+                        512,
+                        646,
+                        560,
+                        663
+                    ],
+                    "confidence": 0.0
+                }
+            ],
+            "associated_element": "none"
+        },
+        {
+            "text": "1.90",
+            "bbox": [
+                730,
+                643,
+                779,
+                663
+            ],
+            "conf": 0.0,
+            "words": [
+                {
+                    "text": "1.90",
+                    "bbox": [
+                        730,
+                        643,
+                        779,
+                        663
+                    ],
+                    "confidence": 0.0
+                }
+            ],
+            "associated_element": "none"
+        },
+        {
+            "text": "E4",
+            "bbox": [
+                279,
+                680,
+                312,
+                696
+            ],
+            "conf": 0.0,
+            "words": [
+                {
+                    "text": "E4",
+                    "bbox": [
+                        279,
+                        680,
+                        312,
+                        696
+                    ],
+                    "confidence": 0.0
+                }
+            ],
+            "associated_element": "none"
+        },
+        {
+            "text": "12.38",
+            "bbox": [
+                504,
+                679,
+                565,
+                696
+            ],
+            "conf": 0.0,
+            "words": [
+                {
+                    "text": "12.38",
+                    "bbox": [
+                        504,
+                        679,
+                        565,
+                        696
+                    ],
+                    "confidence": 0.0
+                }
+            ],
+            "associated_element": "none"
+        },
+        {
+            "text": "13.43",
+            "bbox": [
+                723,
+                679,
+                784,
+                696
+            ],
+            "conf": 0.0,
+            "words": [
+                {
+                    "text": "13.43",
+                    "bbox": [
+                        723,
+                        679,
+                        784,
+                        696
+                    ],
+                    "confidence": 0.0
+                }
+            ],
+            "associated_element": "none"
+        },
+        {
+            "text": "E5",
+            "bbox": [
+                279,
+                715,
+                310,
+                731
+            ],
+            "conf": 0.0,
+            "words": [
+                {
+                    "text": "E5",
+                    "bbox": [
+                        279,
+                        715,
+                        310,
+                        731
+                    ],
+                    "confidence": 0.0
+                }
+            ],
+            "associated_element": "none"
+        },
+        {
+            "text": "14.65",
+            "bbox": [
+                505,
+                714,
+                567,
+                730
+            ],
+            "conf": 0.0,
+            "words": [
+                {
+                    "text": "14.65",
+                    "bbox": [
+                        505,
+                        714,
+                        567,
+                        730
+                    ],
+                    "confidence": 0.0
+                }
+            ],
+            "associated_element": "none"
+        },
+        {
+            "text": "15.05",
+            "bbox": [
+                723,
+                713,
+                785,
+                732
+            ],
+            "conf": 0.0,
+            "words": [
+                {
+                    "text": "15.05",
+                    "bbox": [
+                        723,
+                        713,
+                        785,
+                        732
+                    ],
+                    "confidence": 0.0
+                }
+            ],
+            "associated_element": "none"
+        },
+        {
+            "text": "el",
+            "bbox": [
+                281,
+                749,
+                305,
+                765
+            ],
+            "conf": 0.0,
+            "words": [
+                {
+                    "text": "el",
+                    "bbox": [
+                        281,
+                        749,
+                        305,
+                        765
+                    ],
+                    "confidence": 0.0
+                }
+            ],
+            "associated_element": "none"
+        },
+        {
+            "text": "5.08 BSC",
+            "bbox": [
+                593,
+                747,
+                704,
+                765
+            ],
+            "conf": 0.0,
+            "words": [
+                {
+                    "text": "5.08",
+                    "bbox": [
+                        593,
+                        747,
+                        641,
+                        765
+                    ],
+                    "confidence": 0.0
+                },
+                {
+                    "text": "BSC",
+                    "bbox": [
+                        652,
+                        747,
+                        704,
+                        764
+                    ],
+                    "confidence": 0.0
+                }
+            ],
+            "associated_element": "none"
+        },
+        {
+            "text": "L",
+            "bbox": [
+                286,
+                782,
+                307,
+                799
+            ],
+            "conf": 0.0,
+            "words": [
+                {
+                    "text": "L",
+                    "bbox": [
+                        286,
+                        782,
+                        307,
+                        799
+                    ],
+                    "confidence": 0.0
+                }
+            ],
+            "associated_element": "none"
+        },
+        {
+            "text": "17.31",
+            "bbox": [
+                504,
+                780,
+                565,
+                799
+            ],
+            "conf": 0.0,
+            "words": [
+                {
+                    "text": "17.31",
+                    "bbox": [
+                        504,
+                        780,
+                        565,
+                        799
+                    ],
+                    "confidence": 0.0
+                }
+            ],
+            "associated_element": "none"
+        },
+        {
+            "text": "17.82",
+            "bbox": [
+                723,
+                783,
+                784,
+                799
+            ],
+            "conf": 0.0,
+            "words": [
+                {
+                    "text": "17.82",
+                    "bbox": [
+                        723,
+                        783,
+                        784,
+                        799
+                    ],
+                    "confidence": 0.0
+                }
+            ],
+            "associated_element": "none"
+        },
+        {
+            "text": "L1",
+            "bbox": [
+                278,
+                817,
+                308,
+                834
+            ],
+            "conf": 0.0,
+            "words": [
+                {
+                    "text": "L1",
+                    "bbox": [
+                        278,
+                        817,
+                        308,
+                        834
+                    ],
+                    "confidence": 0.0
+                }
+            ],
+            "associated_element": "none"
+        },
+        {
+            "text": "3.97",
+            "bbox": [
+                510,
+                815,
+                559,
+                834
+            ],
+            "conf": 0.0,
+            "words": [
+                {
+                    "text": "3.97",
+                    "bbox": [
+                        510,
+                        815,
+                        559,
+                        834
+                    ],
+                    "confidence": 0.0
+                }
+            ],
+            "associated_element": "none"
+        },
+        {
+            "text": "4.37",
+            "bbox": [
+                727,
+                817,
+                778,
+                834
+            ],
+            "conf": 0.0,
+            "words": [
+                {
+                    "text": "4.37",
+                    "bbox": [
+                        727,
+                        817,
+                        778,
+                        834
+                    ],
+                    "confidence": 0.0
+                }
+            ],
+            "associated_element": "none"
+        },
+        {
+            "text": "L2",
+            "bbox": [
+                278,
+                851,
+                311,
+                868
+            ],
+            "conf": 0.0,
+            "words": [
+                {
+                    "text": "L2",
+                    "bbox": [
+                        278,
+                        851,
+                        311,
+                        868
+                    ],
+                    "confidence": 0.0
+                }
+            ],
+            "associated_element": "none"
+        },
+        {
+            "text": "2.35",
+            "bbox": [
+                507,
+                849,
+                558,
+                869
+            ],
+            "conf": 0.0,
+            "words": [
+                {
+                    "text": "2.35",
+                    "bbox": [
+                        507,
+                        849,
+                        558,
+                        869
+                    ],
+                    "confidence": 0.0
+                }
+            ],
+            "associated_element": "none"
+        },
+        {
+            "text": "2.65",
+            "bbox": [
+                728,
+                850,
+                779,
+                868
+            ],
+            "conf": 0.0,
+            "words": [
+                {
+                    "text": "2.65",
+                    "bbox": [
+                        728,
+                        850,
+                        779,
+                        868
+                    ],
+                    "confidence": 0.0
+                }
+            ],
+            "associated_element": "none"
+        },
+        {
+            "text": "\u00d8P",
+            "bbox": [
+                278,
+                883,
+                317,
+                902
+            ],
+            "conf": 0.0,
+            "words": [
+                {
+                    "text": "\u00d8P",
+                    "bbox": [
+                        278,
+                        883,
+                        317,
+                        902
+                    ],
+                    "confidence": 0.0
+                }
+            ],
+            "associated_element": "none"
+        },
+        {
+            "text": "3.51",
+            "bbox": [
+                510,
+                885,
+                557,
+                901
+            ],
+            "conf": 0.0,
+            "words": [
+                {
+                    "text": "3.51",
+                    "bbox": [
+                        510,
+                        885,
+                        557,
+                        901
+                    ],
+                    "confidence": 0.0
+                }
+            ],
+            "associated_element": "none"
+        },
+        {
+            "text": "3.65",
+            "bbox": [
+                727,
+                882,
+                779,
+                902
+            ],
+            "conf": 0.0,
+            "words": [
+                {
+                    "text": "3.65",
+                    "bbox": [
+                        727,
+                        882,
+                        779,
+                        902
+                    ],
+                    "confidence": 0.0
+                }
+            ],
+            "associated_element": "none"
+        },
+        {
+            "text": "Q",
+            "bbox": [
+                285,
+                919,
+                307,
+                939
+            ],
+            "conf": 0.0,
+            "words": [
+                {
+                    "text": "Q",
+                    "bbox": [
+                        285,
+                        919,
+                        307,
+                        939
+                    ],
+                    "confidence": 0.0
+                }
+            ],
+            "associated_element": "none"
+        },
+        {
+            "text": "5.49",
+            "bbox": [
+                510,
+                919,
+                558,
+                935
+            ],
+            "conf": 0.0,
+            "words": [
+                {
+                    "text": "5.49",
+                    "bbox": [
+                        510,
+                        919,
+                        558,
+                        935
+                    ],
+                    "confidence": 0.0
+                }
+            ],
+            "associated_element": "none"
+        },
+        {
+            "text": "6.00",
+            "bbox": [
+                729,
+                919,
+                779,
+                935
+            ],
+            "conf": 0.0,
+            "words": [
+                {
+                    "text": "6.00",
+                    "bbox": [
+                        729,
+                        919,
+                        779,
+                        935
+                    ],
+                    "confidence": 0.0
+                }
+            ],
+            "associated_element": "none"
+        },
+        {
+            "text": "S",
+            "bbox": [
+                287,
+                952,
+                302,
+                969
+            ],
+            "conf": 0.0,
+            "words": [
+                {
+                    "text": "S",
+                    "bbox": [
+                        287,
+                        952,
+                        302,
+                        969
+                    ],
+                    "confidence": 0.0
+                }
+            ],
+            "associated_element": "none"
+        },
+        {
+            "text": "6.04",
+            "bbox": [
+                510,
+                951,
+                558,
+                970
+            ],
+            "conf": 0.0,
+            "words": [
+                {
+                    "text": "6.04",
+                    "bbox": [
+                        510,
+                        951,
+                        558,
+                        970
+                    ],
+                    "confidence": 0.0
+                }
+            ],
+            "associated_element": "none"
+        },
+        {
+            "text": "6.30",
+            "bbox": [
+                729,
+                953,
+                778,
+                969
+            ],
+            "conf": 0.0,
+            "words": [
+                {
+                    "text": "6.30",
+                    "bbox": [
+                        729,
+                        953,
+                        778,
+                        969
+                    ],
+                    "confidence": 0.0
+                }
+            ],
+            "associated_element": "none"
+        },
+        {
+            "text": "T",
+            "bbox": [
+                287,
+                987,
+                304,
+                1004
+            ],
+            "conf": 0.0,
+            "words": [
+                {
+                    "text": "T",
+                    "bbox": [
+                        287,
+                        987,
+                        304,
+                        1004
+                    ],
+                    "confidence": 0.0
+                }
+            ],
+            "associated_element": "none"
+        },
+        {
+            "text": "17.5 REF.",
+            "bbox": [
+                585,
+                987,
+                717,
+                1004
+            ],
+            "conf": 0.0,
+            "words": [
+                {
+                    "text": "17.5",
+                    "bbox": [
+                        585,
+                        987,
+                        632,
+                        1004
+                    ],
+                    "confidence": 0.0
+                },
+                {
+                    "text": "REF",
+                    "bbox": [
+                        656,
+                        987,
+                        710,
+                        1004
+                    ],
+                    "confidence": 0.0
+                },
+                {
+                    "text": ".",
+                    "bbox": [
+                        712,
+                        987,
+                        717,
+                        1004
+                    ],
+                    "confidence": 0.0
+                }
+            ],
+            "associated_element": "none"
+        },
+        {
+            "text": "W",
+            "bbox": [
+                282,
+                1022,
+                306,
+                1037
+            ],
+            "conf": 0.0,
+            "words": [
+                {
+                    "text": "W",
+                    "bbox": [
+                        282,
+                        1022,
+                        306,
+                        1037
+                    ],
+                    "confidence": 0.0
+                }
+            ],
+            "associated_element": "none"
+        },
+        {
+            "text": "3.5\u00b0 REF.",
+            "bbox": [
+                590,
+                1020,
+                710,
+                1037
+            ],
+            "conf": 0.0,
+            "words": [
+                {
+                    "text": "3.5",
+                    "bbox": [
+                        590,
+                        1020,
+                        625,
+                        1037
+                    ],
+                    "confidence": 0.0
+                },
+                {
+                    "text": "\u00b0",
+                    "bbox": [
+                        630,
+                        1020,
+                        641,
+                        1037
+                    ],
+                    "confidence": 0.0
+                },
+                {
+                    "text": "REF",
+                    "bbox": [
+                        650,
+                        1020,
+                        702,
+                        1037
+                    ],
+                    "confidence": 0.0
+                },
+                {
+                    "text": ".",
+                    "bbox": [
+                        704,
+                        1020,
+                        710,
+                        1037
+                    ],
+                    "confidence": 0.0
+                }
+            ],
+            "associated_element": "none"
+        },
+        {
+            "text": "X",
+            "bbox": [
+                284,
+                1057,
+                304,
+                1071
+            ],
+            "conf": 0.0,
+            "words": [
+                {
+                    "text": "X",
+                    "bbox": [
+                        284,
+                        1057,
+                        304,
+                        1071
+                    ],
+                    "confidence": 0.0
+                }
+            ],
+            "associated_element": "none"
+        },
+        {
+            "text": "4\u00b0 REF.",
+            "bbox": [
+                600,
+                1053,
+                700,
+                1072
+            ],
+            "conf": 0.0,
+            "words": [
+                {
+                    "text": "4",
+                    "bbox": [
+                        600,
+                        1053,
+                        617,
+                        1072
+                    ],
+                    "confidence": 0.0
+                },
+                {
+                    "text": "\u00b0",
+                    "bbox": [
+                        618,
+                        1053,
+                        628,
+                        1072
+                    ],
+                    "confidence": 0.0
+                },
+                {
+                    "text": "REF",
+                    "bbox": [
+                        639,
+                        1053,
+                        692,
+                        1072
+                    ],
+                    "confidence": 0.0
+                },
+                {
+                    "text": ".",
+                    "bbox": [
+                        693,
+                        1053,
+                        700,
+                        1072
+                    ],
+                    "confidence": 0.0
+                }
+            ],
+            "associated_element": "none"
+        }
+    ]
+}
