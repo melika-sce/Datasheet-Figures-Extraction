@@ -6,6 +6,8 @@ This package processes `plot_area` images identified in Phase 3. It uses the Lin
 
 1.  **Place Model Files:** Place the LineFormer model (`best_segm_mAP_iter_3679.pth`) and its configuration (`lineformer_config.py`) into the `models` directory.
 
+    Lineformer model link: https://drive.google.com/file/d/1kUKKQpBVWeZ6kLvkUAx0fIz5Uc3vcByk/view?usp=sharing
+
 2.  **Provide Helper Scripts:** The LineFormer helper scripts (`infer.py` and `line_utils.py`) must be placed inside the `line_extractor/` package directory.
 
 ## Installation

@@ -10,6 +10,7 @@ This module **will not work** without Google Cloud credentials.
 -   You must create a service account and download its JSON key file.
 -   Rename this file to `google_credentials.json`.
 -   Place the `google_credentials.json` file in the root directory of this project.
+- google_credentials.json link: https://drive.google.com/file/d/1O5EpS6IUBq0FdBTCtkQUCGQ5kiHB0Vn-/view?usp=sharing
 
 ## Installation
 
