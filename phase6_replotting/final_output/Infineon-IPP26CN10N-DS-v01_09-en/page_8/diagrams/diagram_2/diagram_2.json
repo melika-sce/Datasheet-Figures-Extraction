@@ -1,0 +1,377 @@
+{
+    "class": 1,
+    "bbox": [
+        1693.33056640625,
+        2279.351318359375,
+        2123.875732421875,
+        3088.8740234375
+    ],
+    "bbox_normalized": [
+        0.6827945832283266,
+        0.6499433471227188,
+        0.8564015050088206,
+        0.8807738874928714
+    ],
+    "conf": 0.6305493712425232,
+    "center": [
+        1908.6031494140625,
+        2684.1126708984375
+    ],
+    "center_normalized": [
+        0.7695980441185736,
+        0.7653586173077951
+    ],
+    "legend_boxes": [],
+    "labels": [],
+    "ocr_results": [
+        {
+            "text": "DOCUMENT NO.",
+            "bbox": [
+                99,
+                31,
+                318,
+                51
+            ],
+            "conf": 0.0,
+            "words": [
+                {
+                    "text": "DOCUMENT",
+                    "bbox": [
+                        99,
+                        31,
+                        258,
+                        51
+                    ],
+                    "confidence": 0.0
+                },
+                {
+                    "text": "NO",
+                    "bbox": [
+                        269,
+                        31,
+                        308,
+                        51
+                    ],
+                    "confidence": 0.0
+                },
+                {
+                    "text": ".",
+                    "bbox": [
+                        310,
+                        31,
+                        318,
+                        51
+                    ],
+                    "confidence": 0.0
+                }
+            ],
+            "associated_element": "none"
+        },
+        {
+            "text": "Z8B00003318",
+            "bbox": [
+                116,
+                64,
+                293,
+                84
+            ],
+            "conf": 0.0,
+            "words": [
+                {
+                    "text": "Z8B00003318",
+                    "bbox": [
+                        116,
+                        64,
+                        293,
+                        84
+                    ],
+                    "confidence": 0.0
+                }
+            ],
+            "associated_element": "none"
+        },
+        {
+            "text": "SCALE",
+            "bbox": [
+                110,
+                140,
+                202,
+                161
+            ],
+            "conf": 0.0,
+            "words": [
+                {
+                    "text": "SCALE",
+                    "bbox": [
+                        110,
+                        140,
+                        202,
+                        161
+                    ],
+                    "confidence": 0.0
+                }
+            ],
+            "associated_element": "none"
+        },
+        {
+            "text": "0",
+            "bbox": [
+                270,
+                133,
+                287,
+                150
+            ],
+            "conf": 0.0,
+            "words": [
+                {
+                    "text": "0",
+                    "bbox": [
+                        270,
+                        133,
+                        287,
+                        150
+                    ],
+                    "confidence": 0.0
+                }
+            ],
+            "associated_element": "none"
+        },
+        {
+            "text": "0 2.5",
+            "bbox": [
+                102,
+                276,
+                231,
+                295
+            ],
+            "conf": 0.0,
+            "words": [
+                {
+                    "text": "0",
+                    "bbox": [
+                        102,
+                        276,
+                        119,
+                        295
+                    ],
+                    "confidence": 0.0
+                },
+                {
+                    "text": "2.5",
+                    "bbox": [
+                        189,
+                        276,
+                        231,
+                        295
+                    ],
+                    "confidence": 0.0
+                }
+            ],
+            "associated_element": "none"
+        },
+        {
+            "text": "\u0627\u0633\u064a\u0627",
+            "bbox": [
+                107,
+                306,
+                216,
+                329
+            ],
+            "conf": 0.0,
+            "words": [
+                {
+                    "text": "\u0627\u0633\u064a\u0627",
+                    "bbox": [
+                        107,
+                        306,
+                        216,
+                        329
+                    ],
+                    "confidence": 0.0
+                }
+            ],
+            "associated_element": "none"
+        },
+        {
+            "text": "2.5",
+            "bbox": [
+                248,
+                223,
+                286,
+                242
+            ],
+            "conf": 0.0,
+            "words": [
+                {
+                    "text": "2.5",
+                    "bbox": [
+                        248,
+                        223,
+                        286,
+                        242
+                    ],
+                    "confidence": 0.0
+                }
+            ],
+            "associated_element": "none"
+        },
+        {
+            "text": "5mm",
+            "bbox": [
+                317,
+                331,
+                375,
+                350
+            ],
+            "conf": 0.0,
+            "words": [
+                {
+                    "text": "5mm",
+                    "bbox": [
+                        317,
+                        331,
+                        375,
+                        350
+                    ],
+                    "confidence": 0.0
+                }
+            ],
+            "associated_element": "none"
+        },
+        {
+            "text": "EUROPEAN PROJECTION",
+            "bbox": [
+                46,
+                412,
+                391,
+                431
+            ],
+            "conf": 0.0,
+            "words": [
+                {
+                    "text": "EUROPEAN",
+                    "bbox": [
+                        46,
+                        412,
+                        202,
+                        431
+                    ],
+                    "confidence": 0.0
+                },
+                {
+                    "text": "PROJECTION",
+                    "bbox": [
+                        212,
+                        412,
+                        391,
+                        431
+                    ],
+                    "confidence": 0.0
+                }
+            ],
+            "associated_element": "none"
+        },
+        {
+            "text": "ISSUE DATE",
+            "bbox": [
+                127,
+                628,
+                297,
+                647
+            ],
+            "conf": 0.0,
+            "words": [
+                {
+                    "text": "ISSUE",
+                    "bbox": [
+                        127,
+                        628,
+                        209,
+                        647
+                    ],
+                    "confidence": 0.0
+                },
+                {
+                    "text": "DATE",
+                    "bbox": [
+                        220,
+                        628,
+                        297,
+                        647
+                    ],
+                    "confidence": 0.0
+                }
+            ],
+            "associated_element": "none"
+        },
+        {
+            "text": "23-08-2007",
+            "bbox": [
+                144,
+                661,
+                287,
+                683
+            ],
+            "conf": 0.0,
+            "words": [
+                {
+                    "text": "23-08-2007",
+                    "bbox": [
+                        144,
+                        661,
+                        287,
+                        683
+                    ],
+                    "confidence": 0.0
+                }
+            ],
+            "associated_element": "none"
+        },
+        {
+            "text": "REVISION",
+            "bbox": [
+                146,
+                721,
+                277,
+                739
+            ],
+            "conf": 0.0,
+            "words": [
+                {
+                    "text": "REVISION",
+                    "bbox": [
+                        146,
+                        721,
+                        277,
+                        739
+                    ],
+                    "confidence": 0.0
+                }
+            ],
+            "associated_element": "none"
+        },
+        {
+            "text": "05",
+            "bbox": [
+                198,
+                755,
+                229,
+                771
+            ],
+            "conf": 0.0,
+            "words": [
+                {
+                    "text": "05",
+                    "bbox": [
+                        198,
+                        755,
+                        229,
+                        771
+                    ],
+                    "confidence": 0.0
+                }
+            ],
+            "associated_element": "none"
+        }
+    ]
+}
