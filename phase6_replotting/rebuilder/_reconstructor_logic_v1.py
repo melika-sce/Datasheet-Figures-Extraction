@@ -37,25 +37,29 @@ def parse_axis_tick_value(text_string):
         except ValueError: pass
     return None
 
-
 def parse_axis_label(label_text_parts):
-    """
-    MODIFIED: This function is now simplified. It no longer attempts to combine
-    text into a single string. Instead, it preserves the list of all text parts,
-    allowing the plotter to reconstruct the visual layout.
-    """
-    if not label_text_parts:
-        return {"raw_text_parts": []}
-    
-    # We simply return the list of text parts, each with its own text and bbox.
-    # The 'full_raw_text' key can be a simple join for backward compatibility or logging.
-    full_raw_text = " ".join([part.get('text', '') for part in label_text_parts])
-    
-    return {
-        "full_raw_text": full_raw_text, # For logging/debugging
-        "raw_text_parts": label_text_parts # This is the important data for the plotter
-    }
-
+    if not label_text_parts: return {"raw_text": "", "parsed_quantity": "", "parsed_symbol": "", "parsed_unit": "", "text_bbox_px": None}
+    full_raw_text = " ".join([part['text'] for part in label_text_parts if part.get('text')])
+    quantity, symbol, unit = "", "", ""
+    text_for_symbol_quantity = full_raw_text
+    unit_match = re.search(r"\(([^)]+?)\)(?!\s*\w)", full_raw_text)
+    if unit_match:
+        unit_candidate = unit_match.group(1).strip()
+        if not (len(unit_candidate.split()) > 1 and any(c.islower() for c in unit_candidate)):
+            unit = unit_candidate
+            text_for_symbol_quantity = full_raw_text.replace(unit_match.group(0), "").strip()
+    parts_by_comma = [p.strip() for p in text_for_symbol_quantity.split(',') if p.strip()]
+    if len(parts_by_comma) > 1:
+        potential_symbol = parts_by_comma[-1]
+        if re.fullmatch(r"[A-Za-z]+[A-Za-z0-9_]*", potential_symbol) and len(potential_symbol) <= 5:
+            symbol = potential_symbol; quantity = ",".join(parts_by_comma[:-1]).strip()
+        else: quantity = text_for_symbol_quantity
+    else: quantity = text_for_symbol_quantity
+    if not symbol and re.fullmatch(r"[A-Za-z]+[A-Za-z0-9_]*", quantity) and len(quantity) <=5 :
+        symbol = quantity; quantity = ""
+    if symbol and symbol in quantity:
+        quantity = re.sub(r'\b' + re.escape(symbol) + r'\b', '', quantity, flags=re.IGNORECASE).strip().rstrip(',').strip()
+    return {"raw_text": full_raw_text, "parsed_quantity": quantity.strip(), "parsed_symbol": symbol.strip(), "parsed_unit": unit.strip(), "text_bbox_px": combine_bboxes([part['bbox'] for part in label_text_parts if part.get('bbox')])}
 
 def parse_series_label(text_string):
     text_string = str(text_string).strip()
@@ -292,9 +296,12 @@ def bbox_is_inside(inner_bbox, outer_bbox, overlap_threshold=0.1):
 
 def reconstruct_digital_diagram(ocr_data, diagram_structure_data):
     """
-    MODIFIED: Now adds the plot_area_bbox to the top-level of the object
-    so the plotter can use it as a positional anchor.
+    Main orchestration function to build the final digital diagram object.
+    MODIFIED: This function now accepts dictionary objects directly instead of file paths.
     """
+    # The original file loading block is removed.
+    
+    # All the logic below this point is identical to your original script.
     try:
         digital_diagram = {
             "diagram_metadata": {
@@ -310,13 +317,6 @@ def reconstruct_digital_diagram(ocr_data, diagram_structure_data):
             "legends": []
         }
         
-        # --- NEW LOGIC ---
-        # Find and store the main plot area bbox at the top level for easy access by the plotter.
-        plot_area_label = next((label for label in diagram_structure_data.get('labels', []) if label.get('class') == 'plot_area'), None)
-        if plot_area_label:
-            digital_diagram["diagram_metadata"]["plot_area_bbox_px"] = plot_area_label.get("bbox")
-        # --- END NEW LOGIC ---
-
         digital_diagram["axes_collection"] = process_axes(ocr_data, diagram_structure_data)
         digital_diagram["plot_areas"] = process_plot_area(ocr_data, diagram_structure_data, digital_diagram["axes_collection"])
         digital_diagram["legends"] = process_legends(ocr_data, diagram_structure_data)
@@ -324,9 +324,11 @@ def reconstruct_digital_diagram(ocr_data, diagram_structure_data):
         return digital_diagram
 
     except Exception as e:
+        # Using print for direct feedback as in the original script
         print(f"Error during reconstruction process: {e}")
         return None
-    
+
+
 def save_digital_diagram(digital_diagram_data, output_path):
     try:
         with open(output_path, 'w', encoding='utf-8') as f: json.dump(digital_diagram_data, f, indent=2)
