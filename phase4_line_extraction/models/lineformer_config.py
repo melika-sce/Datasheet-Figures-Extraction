@@ -1,15 +1,19 @@
+
 data_root = '/content/drive/MyDrive/LineFormer_ft/dataset/'
 pretrained_ckpt_path = '/content/drive/MyDrive/project1/phase1/DiagramDetection/model/LineFormer.pth'
 train_coco_annot_file = '/content/drive/MyDrive/project1/phase1/LineFormer_ft/dataset/V2/train_coco_annot.json'
 train_img_dir = '/content/drive/MyDrive/project1/phase1/LineFormer_ft/dataset/V2/train'
 test_coco_annot_file = '/content/drive/MyDrive/project1/phase1/LineFormer_ft/dataset/V2/val_coco_annot.json'
 test_img_dir = '/content/drive/MyDrive/project1/phase1/LineFormer_ft/dataset/V2/val'
+
+
 image_size = (512, 512)
 classes = ('line', )
 dataset_type = 'CocoDataset'
 num_things_classes = 1
 num_stuff_classes = 0
 num_classes = 1
+
 img_norm_cfg = dict(
     mean=[123.675, 116.28, 103.53], std=[58.395, 57.12, 57.375], to_rgb=True)
 train_pipeline = [
